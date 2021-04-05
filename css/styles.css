@@ -1,0 +1,121 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+#header{}
+
+#header .header-bucket{}
+#header .header-bucket .header-element{
+    position: relative;
+    flex-basis: 20%;
+}
+
+#header .header-bucket .header-element a{
+    text-decoration: none;
+    color: #717171;
+    font-size: 13px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#header .header-bucket .header-element
+input[type="text"]{
+    height: 40px;
+    width: 85%;
+    line-height: 40px;
+    border-radius: 23px;
+    font-style: italic;
+    color: #999;
+    padding: 0 40px 0 15px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #e5e5e5;    
+}
+
+#header ::placeholder{
+    color: #999;
+    font-size: 13px;
+}
+
+#header .header-bucket .header-element button{
+    background: none;
+    outline: none;
+    border: none;
+    color: #333;
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+
+#header .header-bucket .cart i{
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+/* Nav Section */
+#nav{}
+
+/* Hero Section */
+#hero{
+    height: 121px;
+}
+
+#hero .hero-bucket{}
+
+#hero .hero-bucket .hero-element{
+    flex-basis: 30%;
+}
+
+#hero .hero-bucket .hero-element h1{
+    font-size: 8px;
+    font-weight: 800;
+    color: #333333;
+    font-family: 'Raleway',sans-serif;
+}
+
+#hero .hero-bucket .hero-element button{
+    border-radius: 1px;
+    color: #62D2A2;
+    border: 1px solid #62D2A2;
+    font-size: 14px;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+#hero .hero-bucket .hero-element img{
+    background-size: cover;
+    height: 100px;
+    width: 116px;
+}
+
+
+@media(min-width: 576px){
+    #hero .hero-bucket .hero-element{
+    }
+
+    #hero .hero-bucket .hero-element h1{
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    #hero .hero-bucket .hero-element button{
+        visibility: visible;
+        text-align: center;
+    }
+
+    #hero .hero-bucket .hero-element img{
+        width: 208.8px;
+        height: 179.1px;
+    }
+}
+
+@media(min-width: 768px){}
+
+@media(min-width: 992px){}
+
+@media(min-width: 1200px){}
+
+@media(min-width: 1400px){}
