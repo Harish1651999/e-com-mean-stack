@@ -1,3 +1,6 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -8,9 +11,18 @@ body{
 #header{}
 
 #header .header-bucket{}
+
 #header .header-bucket .header-element{
-    position: relative;
-    flex-basis: 20%;
+    padding: 0 12px;
+}
+
+#header .header-bucket .content{
+    margin-left: 10px;
+}
+
+#header .header-bucket .logo{
+    padding: 26px 0;
+    margin-left: 30px;
 }
 
 #header .header-bucket .header-element a{
@@ -20,14 +32,19 @@ body{
     font-family: 'Raleway',sans-serif;
 }
 
-#header .header-bucket .header-element
+#header .header-bucket .header-element .header-acc{
+    padding-bottom: 20px;
+}
+
+#header .header-bucket .header-element .header-search
 input[type="text"]{
     height: 40px;
-    width: 85%;
     line-height: 40px;
     border-radius: 23px;
+    font-size: 13px;
     font-style: italic;
     color: #999;
+    margin-left: 30px;
     padding: 0 40px 0 15px;
     margin-bottom: 20px;
     outline: none;
@@ -39,6 +56,10 @@ input[type="text"]{
     font-size: 13px;
 }
 
+#header .header-bucket .header-element .header-search{
+    position: relative;
+}
+
 #header .header-bucket .header-element button{
     background: none;
     outline: none;
@@ -46,17 +67,59 @@ input[type="text"]{
     color: #333;
     font-size: 15px;
     position: absolute;
-    right: 30px;
+    right: 28px;
     top: 8px;
 }
 
-#header .header-bucket .cart i{
-    font-size: 36px;
+#header .header-bucket .header-element .header-cart a{
+    font-size: 40px;
     padding-bottom: 20px;
+    display: inline-block;
+    margin-left: 30px;
 }
 
-/* Nav Section */
-#nav{}
+
+/* Header Bottom Nav Section */
+#header .nav-bucket{}
+
+#header .nav-toggle{
+    border: none;
+    letter-spacing: 1px;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px;
+    color: #fff;
+    background-color: #444;
+    text-align: left;
+    border-radius: 1px;
+}
+
+#header .links{
+    overflow: hidden;
+    height: 0;
+}
+
+#header .links a{
+    display: block;
+}
+
+#header .nav-bucket ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#header li{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 13px;
+    background-color: #444;
+    color: #fff;
+    font-weight: 300;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(97,95,95,.75);
+}
 
 /* Hero Section */
 #hero{
@@ -91,8 +154,12 @@ input[type="text"]{
     width: 116px;
 }
 
-
+/* // Small devices (landscape phones, 576px and up) */
 @media(min-width: 576px){
+
+    /* Header Section */
+
+    /* Hero Section */
     #hero .hero-bucket .hero-element{
     }
 
@@ -112,10 +179,47 @@ input[type="text"]{
     }
 }
 
+/* // Medium devices (tablets, 768px and up) */
 @media(min-width: 768px){}
 
-@media(min-width: 992px){}
+/* // Large devices (desktops, 992px and up) */
+@media(min-width: 992px){
 
+    /* Header Section */
+    #header .header-cart i{
+        border-left: 1px solid gainsboro;
+        padding-left: 20px;
+    }
+
+    #header .nav-toggle{
+        display: none;
+    } 
+
+    #header .links{
+        display: flex;
+        height: auto;
+    }
+
+    #header .nav-bucket ul li a{
+        color: #222222;
+    }
+
+    #header li{
+        font-size: 13px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        background: none;
+        border-bottom: none;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
 @media(min-width: 1200px){}
 
-@media(min-width: 1400px){}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media(min-width: 1400px){
+    #header li{
+        font-size: 15px;
+    }
+}
