@@ -1,3 +1,4 @@
+/*responsive for extra small-xsm*/
 .special{
     margin: 12px;
 }
@@ -35,26 +36,26 @@
     font-size: 15px;
     margin-bottom: 0;
 }
-/*responsive for small*/
+/*responsive for small-sm*/
 @media (min-width:576px){
 
 }
-/*responsive for medium*/
+/*responsive for medium-md*/
 @media (min-width:768px){
 
-}/*responsive for large*/
+}/*responsive for large-lg*/
 @media (min-width:992px){
 #col{
     border-bottom: none;
     border-right: 1px solid white;
 }
-}/*responsive for extra large*/
+}/*responsive for extra large-xl*/
 @media (min-width:1200px){
 .special .row i{
     font-size: 50px;
 }
 }
-/*responsive for extra extra large*/
+/*responsive for extra extra large-xxl*/
 @media (min-width:1400px){
 .special .container{
     width: 83%;
