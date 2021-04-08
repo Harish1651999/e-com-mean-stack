@@ -1,0 +1,74 @@
+body{
+    font-family: Raleway,sans-serif;
+    text-decoration: none;
+}
+
+.row .footer-title span{
+    color: #62d2a2;
+}
+
+.row .footer-content li{
+    list-style: none;
+}
+
+.row .footer-content{
+    margin-top: 50px;
+    color: gray;
+}
+
+.row .footer-content .call-us{
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+.row .footer-title h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.row .footer-title h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.row .footer-title h6{
+    font-size: 11px;
+    font-weight: 700;
+    color: #b2b2b2;
+    letter-spacing: 1.5px;
+    line-height: 0.4;
+}
+
+.row .footer-content .order{
+    line-height: 2.5;
+}
+
+.row .footer-content .call-us label{
+    font-size: 17px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.row .footer-content .icon-box{
+    font-size: 30px;
+}
+
+.row .footer-content .form-content .box-input .input{
+    font-style: italic;
+    font-size: 15px;
+    width: 220px;
+    height: 40px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.row .footer-content .form-content .box-btn .button{
+    width: 140px;
+    height: 40px;
+    background-color: #62d2a2;
+    border: 1px solid #62d2a2;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+}
