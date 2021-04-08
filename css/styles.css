@@ -125,7 +125,7 @@ input[type="text"]{
 
 /* Hero Section */
 #hero{
-    height: 200px;
+    /* height: 200px; */
 }
 
 #hero .hero-bucket{}
@@ -150,6 +150,118 @@ input[type="text"]{
     font-weight: 600;
     visibility: hidden;
 }
+
+/* Specialities Section */
+
+#speciality{
+    background-color: #F3F6F5;
+    font-family: 'Raleway',Arial,Helvetica,sans-serif;
+    padding: 50px 15px;
+}
+
+#speciality .speciality-item{
+    background-color: #62d2a2;
+    border-radius: 8px;
+}
+
+#speciality .speciality-element{
+    
+    position: relative;
+    text-align: left;
+    padding: 35px 34px 25px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#speciality .speciality-element .speciality_title_bar{
+    width: 60px;
+   height: 2px;
+   background-color: #a5e5ca;
+   margin: 0 auto;
+}
+
+#speciality .speciality-element h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#speciality .speciality-element p{
+    color: #a5e5ca;
+    font-size: 14px;
+}
+
+#speciality .speciality-element .speciality-icon{
+    /* position: absolute;
+    left: 20px; */
+}
+
+#speciality .speciality-element .speciality-icon i{
+    color: #a5e5ca;
+    font-size: 40px;
+}
+
+/* Popular-Category Section */
+
+#popular-category{
+    background-color: #F3F6F5;
+}
+
+#popular-category .section-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#popular-category .section-title h2{
+    font-size: 26px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#popular-category .section-content{
+    padding: 0 15px 50px 15px;
+}
+
+#popular-category .popular-category-elements{
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+#popular-category .popular-category-elements.vegetables{
+    background-color: #c3ead5;
+}
+
+#popular-category .popular-category-elements.fruits{
+    background-color: #f3cd97;
+}
+
+#popular-category .popular-category-elements.juices{
+    background-color: #95e0d2;
+}
+
+#popular-category .popular-category-elements.meats{
+    background-color: #fa8383;
+}
+
+#popular-category .popular-category-content a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#popular-category .popular-category-content h2{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Raleway';
+}
+
+#popular-category .popular-category-content{
+    min-height: 150px;
+}
+
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media(min-width: 576px){
@@ -219,6 +331,7 @@ input[type="text"]{
         display: flex;
         height: auto;
         margin-bottom: 0;
+        overflow: visible;
     }
 
     #header .nav-bucket ul li a{
@@ -275,6 +388,17 @@ input[type="text"]{
 
     #hero .hero-bucket {
         height: 60vh;
+    }
+
+    /* Specaility Section */
+    #speciality .speciality-element {
+        padding: 35px 34px 25px 15px;    
+    }
+
+    /* Popular-Category Section */
+    #popular-category .popular-category-elements{
+        width: 23%;
+        margin: 0 9px;
     }
 }
 
