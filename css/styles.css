@@ -327,6 +327,7 @@ input[type="text"]{
 
 #our-products .our-products-nav{
     padding: 30px 0 30px 0;
+    position: relative;
 }
 
 #our-products .our-products-nav li a{
@@ -335,8 +336,63 @@ input[type="text"]{
     color: #333333;
     font-family: 'Raleway';
     padding: 0 0 5px 0;
+}
+
+#our-products li{
+    position: relative;
     margin: 0 20px;
 }
+
+#our-products li::after{
+    content: "";
+    position: absolute;
+    background-color: #62D2A2;
+    width: 0px;
+    height: 2px;
+    left: 0;
+    top: 26px;
+    bottom: 50px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+#our-products li:hover::after{
+    opacity: 1;
+    width: 100%;
+
+}
+
+.active::after{
+    content: "" !important;
+    position: absolute !important;
+    background-color: #62D2A2 !important;
+    width: 100% !important;
+    height: 2px !important;
+    left: 0 !important;
+    top: 26px !important;
+    bottom: 50px !important;
+    opacity: 1 !important;
+    transition: all 0.5s ease !important;
+}
+/* #our-products .our-products-nav li a{
+    transition: all 0.5s ease;
+}
+
+#our-products .our-products-nav li:hover a{
+    color: #62d2a2;
+}
+
+#our-products li:hover::after{
+    opacity: 1;
+}
+
+#our-products .our-products-nav ul li a{
+    color: #62d2a2;
+}
+
+#our-products .our-products-nav:after{
+    opacity: 1;
+} */
 
 #our-products .our-products-bucket{
     padding: 0 15px;
