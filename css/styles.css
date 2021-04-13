@@ -442,13 +442,28 @@ input[type="text"]{
 
 #best-sellers .best-sellers-title{
     padding-top: 60px;
+    padding-bottom: 30px;
 } 
+
+#best-sellers .best-sellers-title h2{
+    position: relative;
+}
+
+#best-sellers .best-sellers-title h2::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: #62D2A2;
+    bottom: 0;
+    left: 4px;
+}
 
 #best-sellers .best-sellers-title h2{
     font-size: 24px;
     font-family: 'Berkshire Swash', cursive;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 #best-sellers .best-sellers-content {
@@ -486,6 +501,18 @@ input[type="text"]{
     color: #333333;
     text-decoration: none;
     font-family: 'Lora', serif;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+#best-sellers .best-sellers-fruits h4 a::after{
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -497,6 +524,7 @@ input[type="text"]{
     font-size: 16px;
     font-family: 'Lora', serif;
     font-weight: 700;
+    margin: 0;
 }
 
 #best-sellers .best-sellers-price p span{
@@ -505,6 +533,95 @@ input[type="text"]{
     padding-left: 5px;
     font-weight: 600;
 }
+
+/* Footer Section */
+#footer{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer .footer-element{
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+#footer .contact-info{
+}
+
+#footer .contact-info h4{
+    font-size: 16px;
+    font-weight: 700; 
+    margin-bottom: 30px;
+}
+
+#footer .contact-location{
+    margin-bottom: 20px;
+}
+
+#footer .contact-location{
+    margin-bottom: 20px;
+}
+
+#footer .contact-location h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#footer .contact-location p{
+    font-size: 15px;
+    margin: 0;
+}
+
+#footer .contact-number{
+    margin-bottom: 20px;
+}
+
+#footer .contact-number h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#footer .contact-number p{
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+#footer .contact-email h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#footer .contact-email a{
+    text-decoration: none;
+    color: #333333;
+}
+
+#footer .contact-email p{
+    font-size: 15px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+#footer .contact-terms{}
+
+#footer .contact-terms h4{
+    font-size: 16px;
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+
+#footer .contact-terms p{
+    margin: 0;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+#footer .contact-terms a{
+    text-decoration: none;
+    color: #333333;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media(min-width: 576px){
