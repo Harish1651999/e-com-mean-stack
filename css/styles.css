@@ -840,6 +840,12 @@ input[type="text"]{
     #best-sellers .best-sellers-content-img {
         flex-basis: 67%;
     }
+
+    /* footer Section */
+    #footer .footer-element{
+        margin-bottom: 30px;
+        padding: 0 50px;
+    }
     
 }
 
