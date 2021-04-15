@@ -4,10 +4,13 @@
     padding-bottom: 60px;
 }
 
-#myacc .myacc-title{
+#myacc .myacc-img{
     background-image: url('../images/breadcrumb-banner.jpg');
     background-size: cover;
     background-position: center;
+}
+
+#myacc .myacc-title{
     text-align: center;
     padding: 35px 0;
 }

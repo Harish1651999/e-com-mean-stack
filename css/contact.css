@@ -1,0 +1,235 @@
+/* Common Section - Contact */
+#common{
+    font-family: 'Raleway', sans-serif;
+    /* padding-bottom: 60px; */
+}
+
+#common .common-img{
+    background-image: url('../images/breadcrumb-banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#common .common-title{
+    text-align: center;
+    padding: 35px 0;
+}
+
+#common .common-heading{
+    padding-bottom: 20px;
+}
+
+#common .common-heading h2{
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 600;
+}
+
+#common .breadcrumb{
+    margin: 0;
+}
+
+#common .breadcrumb-item a{
+    color: #333333;
+}
+
+#common .breadcrumb-item.active a{
+    color: #666666;
+}
+
+#common .breadcrumb-item a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/* Contact Section */
+#contact{
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact .contact-tellus{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contact .contact-tellus-heading{
+    padding-bottom: 15px;
+}
+
+#contact .contact-tellus-heading h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#contact .contact-tellus-input{
+    margin-bottom: 30px;
+}
+
+#contact .contact-tellus-input input{
+    padding: 10px;
+    width: 100%; 
+    border: none;
+    background-color: #f3f6f5;
+}
+
+#contact .contact-tellus-input textarea{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: #f3f6f5;
+}
+
+#contact ::placeholder{
+    font-size: 13px;
+    font-weight: 400;
+    color: #A7B0C1;
+    font-style: italic;
+}
+
+#contact .contact-tellus-sndbtn button{
+    padding: 8px 25px 8px;
+    background-color: #62D2A2;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact .contact-number{
+    background-color: #f3f6f5;
+    padding-top: 60px;
+}
+
+#contact .contact-number-heading{
+    padding-bottom: 8px;
+}
+
+#contact .contact-number-heading h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#contact .contact-number-content{
+    padding-bottom: 30px;
+}
+
+#contact .contact-number-content p{
+    color: #666666;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+#contact .contact-number-details ul li{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#contact .contact-number-details ul li:last-child{
+    border-bottom: none;
+}
+
+#contact .contact-number-details .address{
+
+}
+
+#contact .contact-number-details i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#contact .contact-number-details p{
+    display: inline;
+}
+
+#contact .contact-number-hours-heading{
+    padding-bottom: 5px;
+}
+
+#contact .contact-number-hours-heading h3{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+
+#contact .contact-number-hours-content{
+    padding-bottom: 30px;
+}
+
+#contact .contact-number-hours-content p{
+    margin: 0;
+}
+
+#contact .contact-number-hours-content p span{
+    padding-right: 10px;
+}
+
+#contact .contact-map{
+    padding: 0;
+}
+
+#contact .contact-map-content{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#contact .contact-map-content iframe{
+    width: 100%;
+    height: 200px;
+}
+
+
+@media(min-width: 576px){
+    #common .common-heading h2{
+        margin: 0;
+        font-size: 36px;
+        font-family: 'Berkshire Swash', cursive;
+        font-weight: 600;
+    }
+
+    #contact .contact-tellus-heading h2{
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    #contact .contact-number-heading{
+        padding-bottom: 30px;
+    }
+
+    #contact .contact-number-heading h2{
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    #contact .contact-map-content iframe{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media(min-width: 768px){
+    #contact .contact-map-content iframe{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media(min-width: 992px){
+    #contact .contact-map-content iframe{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media(min-width: 1200px){}
+
+@media(min-width: 1400px){}
