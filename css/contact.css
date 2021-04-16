@@ -224,6 +224,10 @@
 }
 
 @media(min-width: 992px){
+    #contact .contact-tellus{
+        padding-right: 30px;
+    }
+
     #contact .contact-map-content iframe{
         width: 100%;
         height: 500px;

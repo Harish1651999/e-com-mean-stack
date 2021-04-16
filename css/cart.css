@@ -1,0 +1,31 @@
+#cart{
+    font-family: 'Raleway', sans-serif;
+}
+
+#cart .cart-bucket{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#cart .cartempty{}
+
+#cart .cartempty p{
+    font-size: 15px;
+    color: #666666;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+#cart .rtnbtn button{
+    padding: 13px 30px;
+    border: none;
+    outline: none;
+    background: #ebebeb;
+}
+
+#cart .rtnbtn button a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+}
