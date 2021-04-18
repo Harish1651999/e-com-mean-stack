@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/shop.css">
@@ -40,15 +40,12 @@
 
     <section id="shop">
         <div class="row">
-            
-            <!-- Filter Section -->
-            <section id="filter" class="col-12"></section>
 
             <!-- Our Products Section -->
-           <section id="our-products" class="col-12">
+           <section id="our-products" class="col-12 col-lg-9 order-lg-1">
             <div class="container">
                 
-                <div class="section-title">
+                <!-- <div class="section-title">
                     <h2>Our Products</h2>
                     <div class="our-products-links">
                         <ul class="our-products-nav d-flex justify-content-center align-items-center flex-wrap">
@@ -59,7 +56,7 @@
                         <li class="list-unstyled"><a href="">Meats</a></li>
                 </ul>
                 </div>
-            </div>
+            </div> -->
 
             <div class="section-content">
                 <div class="our-products-bucket row">
@@ -339,7 +336,7 @@
                         <div class="our-products-addcart">
                             <a href="#" class="whish-icon"><i class="icofont-heart"></i></a>
                             <a href="#" class="cart-icon"><i class="icofont-bag-alt" ></i></a>
-                            <a href="#" class="share-icon"><i class="icofont-share"></i></a>
+                            <a href="#" class="share-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Compare"><i class="icofont-share"></i></a>
                         </div>
                     </div>
                     </div>
@@ -387,8 +384,89 @@
             </div>
         </div>
     </section>
+
+    <!-- Filter Section -->
+    <section id="filter" class="col-12 col-lg-3 ">
+        <div class="container">
+            <div class="filter-bucket">
+                <div class="filter-categories">
+                    <div class="fltr-ctg-hdng">
+                        <h3>Categories</h3>
+                    </div>
+                    <div class="fltr-ctg-itms">
+                       <ul class="list-unstyled">
+                           <li><a href="">Accessories</a></li>
+                           <li><a href="">Fruits</a></li>
+                           <li><a href="">Juice</a></li>
+                           <li><a href="">Meats</a></li>
+                           <li><a href="">Vegetables</a></li>
+                       </ul>
+                    </div>
+                </div>
+
+                <div class="filter-price">
+                    <div class="fltr-prc-hdng">
+                        <h3>Filter By Price</h3>
+                    </div>
+
+                <div class="fltr-range">
+                    <form action="">
+                        <input type="range" value="200" min="0" max="1000">
+                    </form>
+                </div>
+
+                    <div class="fltr-prc-input">
+                        <p>Price: $20-$40c</p>
+                    </div>
+                    <div class="fltr-btn">
+                        <button>FILTER</button>
+                    </div>
+                </div>
+
+                <div class="filter-color">
+                    <div class="fltr-clr-hdng">
+                        <h3>Color</h3>
+                    </div>
+
+                    <div class="fltr-clr-itms">
+                        <ul class="list-unstyled fltr-links">
+                            <li class="fltr-gold"> <a href="">Gold</a> <span>(5)</span> </li>
+                            <li> <a href="">Green</a> <span>(5)</span> </li>
+                            <li> <a href="">Blue</a> <span>(5)</span> </li>
+                            <li> <a href="">White</a> <span>(5)</span> </li>
+                            <li> <a class="fltr-red-nbr" href="">Red</a> <span>(5)</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="filter-size">
+                    <div class="fltr-sze-hdng">
+                        <h3>Size</h3>
+                    </div>
+                    <div class="fltr-sze-itms">
+                        <ul class="list-unstyled">
+                            <li> <a href="">L</a> <span>(5)</span> </li>
+                            <li> <a href="">M</a> <span>(6)</span> </li>
+                            <li> <a href="">S</a> <span>(2)</span> </li>
+                            <li> <a href="">XL</a> <span>(1)</span> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="fltr-img">
+                    <img src="./images/filter-img.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
         </div>
     </section>
     
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
