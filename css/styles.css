@@ -190,6 +190,11 @@ input[type="text"]{
     visibility: hidden;
 }
 
+#hero .hero-bucket .hero-element button:hover{
+    background-color: #62D2A2;
+    color: #fff;
+}
+
 /* Specialities Section */
 
 #speciality{
@@ -970,7 +975,7 @@ input[type="text"]{
     }
 
     #hero .hero-bucket .hero-element{
-        flex-basis: 35%;
+        flex-basis: 43%;
     }
 
     #hero .hero-bucket .hero-element h1 {
@@ -1082,7 +1087,7 @@ input[type="text"]{
 
     /* Hero Section */
     #hero {
-        height: 70vh;
+        height: 75vh;
     }
     
     #hero .hero-bucket .hero-element h1 {
@@ -1091,7 +1096,7 @@ input[type="text"]{
     }
 
     #hero .hero-bucket {
-        height: 60vh;
+        height: 70vh;
     }
 
     /* Specaility Section */
