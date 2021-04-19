@@ -1,0 +1,215 @@
+#login{
+    font-family: 'Raleway', sans-serif;
+}
+
+#login .login-bucket{}
+
+#login .login-element.sign-in{
+    padding: 20px 15px;
+    border: 1px solid #eee;
+    margin: 50px 0;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+}
+
+#login .login-element .sign-in-hdng{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-in-hdng h2{
+    font-size: 26px;
+    margin: 0;
+    color: #333333;
+}
+
+#login .login-element .sign-in-input{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-in-input input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#login .login-element .sign-in-input input::placeholder{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#login .login-element .sign-in-pswd{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-in-pswd input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#login .login-element .sign-in-pswd input::placeholder{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#login .login-element .sign-in-check{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-in-check input{
+    background-color: #ddd;
+    color: #62D2A2;
+}
+
+#login .login-element .sign-in-check label{
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#login .login-element .sign-in-check a{
+    padding-left: 15px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #62D2A2;
+}
+
+#login .login-element .sign-in-btn{
+ margin-bottom: 10px;
+}
+
+#login .login-element .sign-in-btn button{
+    background-color: #62D2A2;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+
+#login .login-element .sign-in-btn button:hover{
+    background-color: #fd7e14;
+}
+
+#login .login-element.sign-up{
+    padding: 20px 15px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    margin-bottom: 50px;
+}
+
+#login .login-element .sign-up-hdng{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-up-hdng h2{
+    font-size: 26px;
+}
+
+#login .login-element input::placeholder{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#login .login-element .sign-up-name{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-up-name input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#login .login-element .sign-up-email{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-up-email input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#login .login-element .sign-up-pswd{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-up-pswd input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#login .login-element .sign-up-repswd{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-up-repswd input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#login .login-element .sign-up-check{
+    margin-bottom: 20px;
+}
+
+#login .login-element .sign-up-check input{}
+
+#login .login-element .sign-up-check label{
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#login .login-element .sign-up-btn{
+    margin-bottom: 10px;
+}
+
+#login .login-element .sign-up-btn button{
+    background-color: #62D2A2;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+
+#login .login-element .sign-up-btn button:hover{
+    background-color: #fd7e14;
+}
+
+
+@media(min-width: 576px){}
+
+@media(min-width: 768px){}
+
+@media(min-width: 992px){
+    #login .login-element{
+        margin: 50px 0;
+    }
+
+    #login .sign-up-pswds .sign-up-pswd{
+        flex-basis: 50%;
+        margin: 10px 10px 10px 0;
+    }
+
+    #login .sign-up-pswds .sign-up-repswd{
+        flex-basis: 50%;
+        margin: 10px 0 10px 10px;
+    }
+}
+
+@media(min-width: 1200px){}
+
+@media(min-width: 1400px){}
